@@ -29,7 +29,7 @@ The body of the `setup` function contains a call to `corners`. \(More briefly: �
 
 We can describe this relationship, between `setup` and `corners`, by using a _**call graph**_.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 A call graph shows which functions call which other functions. It’s a way of visualizing a program, just like, outside of coding, an _outline_ or a _table of contents_ is a way of visualizing the structure of a book.
 
@@ -39,7 +39,7 @@ Our code also calls some functions that we _didn’t_ define in `sketch.js`. The
 
 These are functions that p5.js defines. We can use the call graph to show which functions are defined in the code that we wrote, and which ones are defined in another body of code, such as p5.js.
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 The JavaScript language itself also defines functions. For example, in the activity today we’ll mention the _cosine_ function, `Math.cos`. If our program used `Math.cos`, its call graph would look like this.
 
