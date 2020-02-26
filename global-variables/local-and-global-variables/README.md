@@ -24,7 +24,7 @@ function greet() {
 
 This doesn't work!
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
  The `setup` function _defines_ a variable named `person`. The `greet` function _uses_ a variable named `person`. But it’s not defined!
 
