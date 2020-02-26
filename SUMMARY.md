@@ -10,5 +10,6 @@
 
 ## Global Variables
 
-* [Local and Global Variables](global-variables/local-and-global-variables/README.md)
+* [Local and Global Variables](global-variables/local-and-global-variables.md)
 * [p5.js Global Variables](global-variables/local-and-global-variables/p5.js-global-variables.md)
+

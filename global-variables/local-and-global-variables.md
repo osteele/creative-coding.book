@@ -24,11 +24,11 @@ function greet() {
 
 This doesn't work!
 
-![](../../.gitbook/assets/image%20%2814%29.png)
-
  The `setup` function _defines_ a variable named `person`. The `greet` function _uses_ a variable named `person`. But it’s not defined!
 
 Remember when I explained that defining a variable is like adding a word to a dictionary? Each function has its own dictionary. The `setup` function adds the word “person” to the dictionary for setup. The `greet` function has a _different_ dictionary, that doesn't define this word \(variable\).
+
+[This link](http://pythontutor.com/javascript.html#code=function%20setup%28%29%20%7B%0A%20%20%20%20let%20person%20%3D%20%22class%22%3B%0A%20%20%20%20greet%28%29%3B%0A%7D%0A%0Afunction%20greet%28%29%20%7B%0A%20%20%20%20console.log%28%22Hello%22,%20person%29%3B%0A%7D%0A%0Asetup%28%29%3B%0A&curInstr=4&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D) opens this program in JavaScript Tutor. Use the “Next &gt;” button to step through it until you reach the error.
 
 We can fix this by moving the definition of `person` outside of any function.
 
