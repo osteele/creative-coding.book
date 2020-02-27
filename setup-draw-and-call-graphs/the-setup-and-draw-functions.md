@@ -26,7 +26,7 @@ The \(static\) call graph, above, shows which functions call which other functio
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-We can also show this with a _flow chart_. A flow chart is yet another kind of diagram, that describes the sequence of processes. Flow charts can be used to describe workflows, industrial processes, or business processes. Sometime in the 1940's, the third-smartest mathematician to ever live used flow charts to plan computer programs before they were written.
+We can also show this with a [_flow chart_](https://en.wikipedia.org/wiki/Flowchart). A flow chart is yet another kind of diagram, that describes the sequence of processes. Flow charts can be used to describe workflows, industrial processes, or business processes. Sometime in the 1940's, [the third-smartest mathematician to ever live](https://en.wikipedia.org/wiki/John_von_Neumann) used flow charts to plan computer programs before they were written.
 
 ![](../.gitbook/assets/image.png)
 

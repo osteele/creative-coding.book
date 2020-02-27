@@ -1,4 +1,4 @@
-# Creative Coding – Overview
+# Overview
 
-This site has documentation for the NYU Shanghai Creative Coding class.
+This site has material for the Spring 2020 NYU Shanghai Creative Coding class.
 
