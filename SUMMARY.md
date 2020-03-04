@@ -10,10 +10,16 @@
 
 ## Global Variables
 
-* [Local and Global Variables](global-variables/local-and-global-variables.md)
-* [p5.js Global Variables](global-variables/p5.js-global-variables.md)
+* [Local and Global Variables](variables/local-and-global-variables.md)
+* [p5.js Global Variables](variables/p5.js-global-variables.md)
+
+## Functions
+* [Functions](functions/functions.md)
+
+## Arrays and Iteration
+
+* [Local and Global Variables](arrays/arrays.md)
 
 ## Appendices
 
 * [Glossary](appendices/glossary.md)
-
