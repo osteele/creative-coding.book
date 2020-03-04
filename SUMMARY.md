@@ -8,8 +8,9 @@
 * [The setup and draw functions](setup-draw-and-call-graphs/the-setup-and-draw-functions.md)
 * [Instrumenting draw with console.log](setup-draw-and-call-graphs/setup-draw-and-console.log.md)
 
-## Global Variables
+## Variables
 
+* [Variables](variables/variables.md)
 * [Local and Global Variables](variables/local-and-global-variables.md)
 * [p5.js Global Variables](variables/p5.js-global-variables.md)
 
