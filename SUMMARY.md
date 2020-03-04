@@ -20,9 +20,8 @@
 
 ## Arrays and Iteration
 
-* [Local and Global Variables](arrays-and-iteration/arrays.md)
+* [Arrays](arrays-and-iteration/arrays.md)
 
 ## Appendices
 
 * [Glossary](appendices/glossary.md)
-

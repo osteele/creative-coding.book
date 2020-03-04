@@ -111,4 +111,3 @@ let hello = "Hello " + "Applab";
 ```
 
 Note: The _string_ "12" is different from the _number_ 12. The _string_ is a sequence of characters: the character "1" followed by the character "2". The _number_ is an integer that is slightly greater than 10. 12 + 3 is equivalent to 15; "12" + "3" is equivalent to "1212".
-

@@ -1,4 +1,4 @@
-# Local and Global Variables
+# Arrays
 
 JavaScript arrays are used to store multiple values in a single variable. An array can hold many values under a single variable name, and you can access the values by referring to an index number \(0,1,2,3..etc…\). Arrays are extremely useful, and you’ll be working with them all the time. Some important properti∑es of arrays:
 
@@ -26,7 +26,7 @@ const arrayName = [] //declares an empty array named arrayName as a constant
 
 Of course declaring an empty array isn't normally the end in and of itself. Instead, you'll want to sometimes declare an array with things like numbers inside of it, or, when we learn about objects, you can even include an array of those. In the "cat" example, we created an array of strings. But it could have been an array of numbers too:
 
-[https://repl.it/@ChristianGrewel/5-2](https://repl.it/@ChristianGrewel/5-2)
+{% embed url="https://repl.it/@ChristianGrewel/5-2" %}
 
 Run this.
 
@@ -82,19 +82,19 @@ Below are a few challenges for you including a more advanced one that combines f
 
 ## Create an array
 
-[https://repl.it/@ChristianGrewel/5-challenge-1](https://repl.it/@ChristianGrewel/5-challenge-1)
+{% embed url="https://repl.it/@ChristianGrewel/5-challenge-1" %}
 
 Click [here](https://repl.it/@ChristianGrewel/5-challenge-1-solution) for a solution.
 
 ## Retrieve a value from an array
 
-[https://repl.it/@ChristianGrewel/5-challenge-2](https://repl.it/@ChristianGrewel/5-challenge-2)
+{% embed url="https://repl.it/@ChristianGrewel/5-challenge-2" %}
 
 Click [here](https://repl.it/@ChristianGrewel/5-challenges-3-solution) for a solution.
 
 ## Add a new value to an array
 
-[https://repl.it/@ChristianGrewel/5-challenges-3](https://repl.it/@ChristianGrewel/5-challenges-3)
+{% embed url="https://repl.it/@ChristianGrewel/5-challenges-3" %}
 
 Click [here](https://repl.it/@ChristianGrewel/5-challenge-2-solution) for a solution.
 
@@ -124,4 +124,3 @@ Below are some important things to remember about arrays.
   Network\]\([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\)
 
   website.
-
