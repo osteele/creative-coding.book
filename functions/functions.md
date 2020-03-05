@@ -26,6 +26,8 @@ let lastName = "Thunberg";
 console.log("Hello, " + firstName + " " + lastName);
 ```
 
+Try tracing through the function by [running it in JavaScript Tutor](http://www.pythontutor.com/javascript.html#code=function%20greet%28firstName,%20lastName%29%20%7B%0A%20%20console.log%28%22Hello,%20%22%20%2B%20firstName%20%2B%20%22%20%22%20%2B%20lastName%29%3B%0A%7D%0A%0Agreet%28%22Greta%22,%20%22Steele%22%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D). Note, in particular, the `greet` Frame that appears when the execution has current line has entered the function body, and disappears again when the execution exits the function. 
+
 ## Declaring a function in Javascript
 
 A function is created with an expression that starts with the keyword `function`. Functions generally have a _name_, and they always have a list of _parameters_ and a _body_, which contains the statements that are to be executed when the function is called. The body of a function that is created with the `function` keyword must always be wrapped in curly braces `{}`, even when it consists of only a single statement.
