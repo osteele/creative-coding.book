@@ -26,7 +26,7 @@ const arrayName = [] //declares an empty array named arrayName as a constant
 
 Of course declaring an empty array isn't normally the end in and of itself. Instead, you'll want to sometimes declare an array with things like numbers inside of it, or, when we learn about objects, you can even include an array of those. In the "cat" example, we created an array of strings. But it could have been an array of numbers too:
 
-{% embed url="https://repl.it/@ChristianGrewel/5-2" %}
+{% embed url="https://repl.it/@ChristianGrewel/5-2" caption="" %}
 
 Run this.
 
@@ -82,19 +82,19 @@ Below are a few challenges for you including a more advanced one that combines f
 
 ## Create an array
 
-{% embed url="https://repl.it/@ChristianGrewel/5-challenge-1" %}
+{% embed url="https://repl.it/@ChristianGrewel/5-challenge-1" caption="" %}
 
 Click [here](https://repl.it/@ChristianGrewel/5-challenge-1-solution) for a solution.
 
 ## Retrieve a value from an array
 
-{% embed url="https://repl.it/@ChristianGrewel/5-challenge-2" %}
+{% embed url="https://repl.it/@ChristianGrewel/5-challenge-2" caption="" %}
 
 Click [here](https://repl.it/@ChristianGrewel/5-challenges-3-solution) for a solution.
 
 ## Add a new value to an array
 
-{% embed url="https://repl.it/@ChristianGrewel/5-challenges-3" %}
+{% embed url="https://repl.it/@ChristianGrewel/5-challenges-3" caption="" %}
 
 Click [here](https://repl.it/@ChristianGrewel/5-challenge-2-solution) for a solution.
 
@@ -124,3 +124,4 @@ Below are some important things to remember about arrays.
   Network\]\([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\)
 
   website.
+

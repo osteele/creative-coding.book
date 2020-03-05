@@ -2,7 +2,29 @@
 
 In mathematics, a _function_ can be defined as a process that associates an input \(or argument\) to an output \(or result\). Forget this for now! For our purposes functions are defining _new vocabulary_ that we can use in our web apps. Functions in practice are really just used to organize chunks of code that can be reused repeatedly.
 
-A function in JavaScript generally has a _name_, a _parameter list_ that is enclosed in parentheses `( )`, and a _code block_ that is enclosed in brackets `{ }`.
+A function in JavaScript generally has a _name_, a _parameter list_ that is enclosed in parentheses `( )`, and a _code block_ or _body_ that is enclosed in brackets `{ }`. In the code below, `greet` is the function name, `firstName, lastName` is the parameter list.
+
+```text
+function greet(firstName, lastName) {
+    console.log("Hello, " + firstName + " " + lastName);
+}
+```
+
+A function is _called_ \(or _invoked_\) using a similar syntax to the syntax used in its definition, only without the `function` keyword, and without the body. The function above could be called:
+
+```text
+greet("Greta", "Steele");
+```
+
+When the computer executes this statement, it matches the parameters in the parameter list \(`firstName`, `lastName`\) in the function _definition_, against the _arguments_ in the _argument list_ \(`"Greta"`, `"Thunberg"`\) in the function _call_. The computer creates an _environment_ \(or _scope_, or _stack frame_\) where the variable `firstName` has the value `"Greta"`, and the variable `lastName` has the value `"Thunberg"`. Finally, it executes the code within the function's body, with those variables having those values.
+
+With the function `greet` defined as above, the line `greet("Greta", "Thunberg")` is equivalent to the lines:
+
+```text
+let firstName = "Greta";
+let lastName = "Thunberg";
+console.log("Hello, " + firstName + " " + lastName);
+```
 
 ## Declaring a function in Javascript
 
@@ -16,9 +38,11 @@ These are all valid functions:
 function celsiusToFahrenheit(celsius) {
   return (celsius + 32) * 9 / 5;
 }
+
 function celsiusToFahrenheit(blablablabla) {
   return (blablablabla + 32) * 9 / 5;
 }
+
 function alwaysBlue() {
   return 'blue';
 }
@@ -34,20 +58,27 @@ let color = alwaysBlue();
 The following are _not_ valid functions. The browser will refuse to load a JavaScript file that contains them. See if you can identify what is wrong with them. \(It isn’t the fact that their names being with `invalid`. The computer doesn’t generally care what your functions are named.\)
 
 ```javascript
+//
+//
 function invalidCelsiusToFahrenheit {
   return (celsius + 32) * 9 / 5;
 }
+
 function invalidCelsiusToFahrenheit celsius {
   return (celsius + 32) * 9 / 5;
 }
+
 function invalidCelsiusToFahrenheit{celsius} {
   return (celsius + 32) * 9 / 5;
 }
+
 function invalidCelsiusToFahrenheit{celsius} (
   return (celsius + 32) * 9 / 5;
 )
+
 function invalidCelsiusToFahrenheit(celsius)
   return (celsius + 32) * 9 / 5;
+
 invalidCelsiusToFahrenheit = (celsius) {
   return (celsius + 32) * 9 / 5;
 }
@@ -73,17 +104,6 @@ invalidCelsiusToFahrenheit = (celsius) {
 
 We have only just touched on functions. You’ll be creating and using many of them throughout the course. Here are a few resources for you to dive deeper:
 
-* A fantastic \[primer on
-
-  functions\]\([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)\)
-
-  by the Mozilla Developers Network
-
-* \[Arrow
-
-  functions\]\([https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/)\)
-
-  and why people love them. \(This site has annoying popups. I recommend a popup
-
-  blocker like uBlock Origin.\)
+* A fantastic [primer on](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) by the Mozilla Developers Network
+* [Arrow](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/) [functions](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/) and why people love them. \(This site has annoying popups. I recommend a popup blocker such as uBlock Origin.\)
 
