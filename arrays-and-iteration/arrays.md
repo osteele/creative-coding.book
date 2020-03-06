@@ -20,17 +20,17 @@ Creating an array is easy. Here’s an array of cat names. Run it and see what h
 To declare an array in JavaScript, use the following syntax:
 
 ```javascript
-let arrayName = [] //declares an empty array named arrayName
-const arrayName = [] //declares an empty array named arrayName as a constant
+let arrayName = [] // declares an empty array named arrayName
+const arrayName = [] // declares an empty array named arrayName as a constant
 ```
 
-Of course declaring an empty array isn't normally the end in and of itself. Instead, you'll want to sometimes declare an array with things like numbers inside of it, or, when we learn about objects, you can even include an array of those. In the "cat" example, we created an array of strings. But it could have been an array of numbers too:
+Of course, declaring an empty array isn't normally the end in and of itself. Instead, you'll want to sometimes declare an array with things like numbers inside of it, or, when we learn about objects, you can even include an array of those. In the "cat" example, we created an array of strings. But it could have been an array of numbers too:
 
 {% embed url="https://repl.it/@ChristianGrewel/5-2" caption="" %}
 
 Run this.
 
-What is this `[1]` thing and why is it 88 instead of 8?!
+What is this `[1]` syntax, and why is it 88 instead of 8?!
 
 This is because arrays always start with zero. Try editing the code above so that the `console.log()` function prints "8" instead.
 
@@ -124,4 +124,3 @@ Below are some important things to remember about arrays.
   Network\]\([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\)
 
   website.
-
