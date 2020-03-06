@@ -24,7 +24,7 @@
 
 ## Objects
 
-* [Arrays](objects/objects-and-properties.md)
+* [Objects and Properties](objects/objects-and-properties.md)
 
 ## Appendices
 

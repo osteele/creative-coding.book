@@ -2,7 +2,7 @@
 
 You might have noticed that even with an ordered list of values (strings, numbers, etc…) and some methods and properties to add, change and delete them, we haven’t yet *programmed* something truly useful, especially something that might help us later when we are doing our side project.
 
-Let’s take the example of wanting to have a list of posts from a user of our fictional social media application. What might that look like if we simply used an Array?
+Let’s take the example of wanting to have a list of posts from a user of a fictional social media application. What might that look like if we simply used an Array?
 
 ```js
 let posts = [
@@ -17,15 +17,15 @@ let posts = [
     4]
 ```
 
-Can you see a problem with this? No, it’s not the mixed-and-matched value types, that’s perfectly fine in JavaScript arrays (though not always a good practice).
+Can you see a problem with this? No, it’s not the mixed-and-matched value types. This is perfectly fine in a JavaScript Array (although it's not always a good practice).
 
 * It’s impossible for us to know what each of those values corresponds to. You can guess that the first value in the array posts[0] is equal to the date, the second is the post content, and the third is?? Likes? Dislikes?
 
 * Iterating through this would be a bad dream, but adding or removing individual values would be a nightmare (you’d shift the entire array)
 
-For situations like this, we have *Objects*, which are arbitrary collections of properties nicely grouped together.
+For situations like this, we have *Objects*. An Object is an arbitrary collections of properties.
 
-Objects in JavaScript are a lot like objects in real life. In JavaScript, an object is a variable that has properties and values. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+Objects in JavaScript are a lot like objects in real life. In JavaScript, an object is a variable that has properties and values. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, *etc.* The same way, JavaScript objects can have properties, which define their characteristics.
 
 IMPORTANT: Objects are at the very heart of JavaScript - if you can understand what an object is, you're going to go places.
 
