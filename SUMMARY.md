@@ -22,7 +22,10 @@
 
 * [Arrays](arrays-and-iteration/arrays.md)
 
+## Objects
+
+* [Arrays](objects/objects-and-properties.md)
+
 ## Appendices
 
 * [Glossary](appendices/glossary.md)
-
