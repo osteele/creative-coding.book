@@ -17,10 +17,12 @@
 ## Functions
 
 * [Functions](functions/functions.md)
+* [Functions](functions/return-values.md)
 
 ## Arrays and Iteration
 
 * [Arrays](arrays-and-iteration/arrays.md)
+* [Iteration Methods](arrays-and-iteration/iteration-methods.md)
 
 ## Objects
 

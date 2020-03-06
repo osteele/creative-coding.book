@@ -27,7 +27,9 @@ For situations like this, we have *Objects*. An Object is an arbitrary collectio
 
 Objects in JavaScript are a lot like objects in real life. In JavaScript, an object is a variable that has properties and values. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, *etc.* The same way, JavaScript objects can have properties, which define their characteristics.
 
-IMPORTANT: Objects are at the very heart of JavaScript - if you can understand what an object is, you're going to go places.
+{% hint style="info" %}
+Objects are at the very heart of JavaScript.
+{% endhint %}
 
 ## Creating an Object
 
@@ -51,10 +53,10 @@ In the example above, we have a variable named `observation`, whose value is an 
 * `gender`: a String
 * `paymentType`: a String
 * `drinks`: an Array of String values
-*
-You’ll also notice one other thing in our `console.log()` function. We’re using something called dot notation in order to get the value for the property in the object.
 
-Object properties are basically the same as ordinary JavaScript variables, except that they are attached to objects. You access the properties of an object with a simple dot-notation:
+You’ll also notice one other thing in our `console.log()` function. We’re using **dot notation** in order to get the value for the property in the object.
+
+Object properties are basically the same as ordinary JavaScript variables, except that they are attached to objects. You access the properties of an object with a simple dot notation:
 
 ```js
 objectName.propertyName
