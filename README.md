@@ -1,3 +1,3 @@
-# Overview
+# Creative Coding Course Notes
 
-Course notes for the Spring 2020 NYU Shanghai Creative Coding class.
+This is build with [gatsby-gitbook-starter](https://github.com/hasura/gatsby-gitbook-starter).

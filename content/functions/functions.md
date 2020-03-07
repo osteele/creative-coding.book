@@ -1,34 +1,32 @@
-# Functions
-
-In mathematics, a _function_ can be defined as a process that associates an input \(or argument\) to an output \(or result\). Forget this for now! For our purposes functions are defining _new vocabulary_ that we can use in our web apps. Functions in practice are really just used to organize chunks of code that can be reused repeatedly.
+In mathematics, a _function_ can be defined as a process that associates an input (or argument) to an output (or result). Forget this for now! For our purposes functions are defining _new vocabulary_ that we can use in our web apps. Functions in practice are really just used to organize chunks of code that can be reused repeatedly.
 
 A function in JavaScript generally has a _name_, a _parameter list_ that is enclosed in parentheses `( )`, and a _code block_ or _body_ that is enclosed in brackets `{ }`. In the code below, `greet` is the function name, `firstName, lastName` is the parameter list.
 
-```text
+```javascript
 function greet(firstName, lastName) {
     console.log("Hello, " + firstName + " " + lastName);
 }
 ```
 
-A function is _called_ \(or _invoked_\) using a similar syntax to the syntax used in its definition, only without the `function` keyword, and without the body. The function above could be called:
+A function is _called_ (or _invoked_) using a similar syntax to the syntax used in its definition, only without the `function` keyword, and without the body. The function above could be called:
 
-```text
-greet("Greta", "Steele");
+```javascript
+greet("Greta", "Thunberg");
 ```
 
-When the computer executes this statement, it matches the parameters in the parameter list \(`firstName`, `lastName`\) in the function _definition_, against the _arguments_ in the _argument list_ \(`"Greta"`, `"Thunberg"`\) in the function _call_. The computer creates an _environment_ \(or _scope_, or _stack frame_\) where the variable `firstName` has the value `"Greta"`, and the variable `lastName` has the value `"Thunberg"`. Finally, it executes the code within the function's body, with those variables having those values.
+When the computer executes this statement, it matches the parameters in the parameter list (`firstName`, `lastName`) in the function _definition_, against the _arguments_ in the _argument list_ (`"Greta"`, `"Thunberg"`) in the function _call_. The computer creates an _environment_ (or _scope_, or _stack frame_) where the variable `firstName` has the value `"Greta"`, and the variable `lastName` has the value `"Thunberg"`. Finally, it executes the code within the function's body, with those variables having those values.
 
 With the function `greet` defined as above, the line `greet("Greta", "Thunberg")` is equivalent to the lines:
 
-```text
+```javascript
 let firstName = "Greta";
 let lastName = "Thunberg";
 console.log("Hello, " + firstName + " " + lastName);
 ```
 
-Try tracing through the function by [running it in JavaScript Tutor](http://www.pythontutor.com/javascript.html#code=function%20greet%28firstName,%20lastName%29%20%7B%0A%20%20console.log%28%22Hello,%20%22%20%2B%20firstName%20%2B%20%22%20%22%20%2B%20lastName%29%3B%0A%7D%0A%0Agreet%28%22Greta%22,%20%22Steele%22%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D). Note, in particular, the `greet` Frame that appears when the execution has current line has entered the function body, and disappears again when the execution exits the function. 
+Try tracing through the function by [running it in JavaScript Tutor](http://www.pythontutor.com/javascript.html#code=function%20greet%28firstName,%20lastName%29%20%7B%0A%20%20console.log%28%22Hello,%20%22%20%2B%20firstName%20%2B%20%22%20%22%20%2B%20lastName%29%3B%0A%7D%0A%0Agreet%28%22Greta%22,%20%22Steele%22%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D). Note, in particular, the `greet` Frame that appears when the execution has current line has entered the function body, and disappears again when the execution exits the function.
 
-## Declaring a function in Javascript
+## Declaring a function in JavaScript
 
 A function is created with an expression that starts with the keyword `function`. Functions generally have a _name_, and they always have a list of _parameters_ and a _body_, which contains the statements that are to be executed when the function is called. The body of a function that is created with the `function` keyword must always be wrapped in curly braces `{}`, even when it consists of only a single statement.
 
@@ -57,7 +55,7 @@ let celsius = celsiusToFahrenheit(80);
 let color = alwaysBlue();
 ```
 
-The following are _not_ valid functions. The browser will refuse to load a JavaScript file that contains them. See if you can identify what is wrong with them. \(It isn’t the fact that their names being with `invalid`. The computer doesn’t generally care what your functions are named.\)
+The following are _not_ valid functions. The browser will refuse to load a JavaScript file that contains them. See if you can identify what is wrong with them. (It isn’t the fact that their names being with `invalid`. The computer doesn’t generally care what your functions are named.)
 
 ```javascript
 //
@@ -90,22 +88,22 @@ invalidCelsiusToFahrenheit = (celsius) {
 
 * Functions are written to perform a task.
 * Functions take data, perform a set of tasks on the data, and then return the
-
   result.
-
 * We can define parameters to be used when calling the function.
 * When calling a function, we can pass in _arguments_. If the function
-
   definition has parameters, they will used as variables inside the function
-
   body, and their values will be the values of those arguments.
-
 * We can use return to return the result value of the function.
 
 ## Further Resources
 
 We have only just touched on functions. You’ll be creating and using many of them throughout the course. Here are a few resources for you to dive deeper:
 
-* A fantastic [primer on](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) by the Mozilla Developers Network
-* [Arrow](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/) [functions](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/) and why people love them. \(This site has annoying popups. I recommend a popup blocker such as uBlock Origin.\)
-
+* A fantastic [primer
+  on](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+  [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+  by the Mozilla Developers Network
+* [Arrow](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/)
+  [functions](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/)
+  and why people love them. (This site has annoying popups. I recommend a popup
+  blocker such as uBlock Origin.)

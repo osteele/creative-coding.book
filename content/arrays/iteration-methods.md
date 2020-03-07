@@ -1,4 +1,6 @@
-# Iteration Methods
+---
+x: Iteration Methods
+---
 
 Iteration methods are one of two ways to do something to each of the elements of an array. The other, that we'll cover later, is using a `for` loop.
 
