@@ -1,6 +1,7 @@
 import React from "react";
 import CodeBlock from "./codeBlock";
 import AnchorTag from "./anchor";
+import Embed from "./embed";
 import '../styles.css';
 
 export default {
@@ -14,6 +15,7 @@ export default {
   pre: props => <pre className='pre' {...props} />,
   code: CodeBlock,
   a: AnchorTag,
+  embed: Embed,
   // TODO add `img`
   // TODO add `blockquote`
   // TODO add `ul`
