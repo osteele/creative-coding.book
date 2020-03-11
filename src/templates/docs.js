@@ -39,7 +39,7 @@ const Edit = styled('div')`
 export default class MDXRuntimeTest extends Component {
   render() {
     const { data } = this.props;
-    if(!data) {
+    if (!data) {
       return null;
     }
     const {
@@ -62,7 +62,7 @@ export default class MDXRuntimeTest extends Component {
           }
 
           let prefix = cur.split("/")[1];
-          if(config.gatsby && config.gatsby.trailingSlash) {
+          if (config.gatsby && config.gatsby.trailingSlash) {
             prefix = prefix + '/';
           }
 
@@ -81,7 +81,7 @@ export default class MDXRuntimeTest extends Component {
       }, [])
       .concat(navItems.items)
       .map(slug => {
-        if(slug) {
+        if (slug) {
           const { node } = allMdx.edges.find(
             ({ node }) => node.fields.slug === slug
           );
@@ -91,7 +91,7 @@ export default class MDXRuntimeTest extends Component {
       });
 
     // meta tags
-    const metaTitle = mdx.frontmatter.metaTitle;
+    const metaTitle = mdx.frontmatter.metaTitle || mdx.fields.title;
     const metaDescription = mdx.frontmatter.metaDescription;
     let canonicalUrl = config.gatsby.siteUrl;
     canonicalUrl = config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
@@ -100,7 +100,7 @@ export default class MDXRuntimeTest extends Component {
     return (
       <Layout {...this.props}>
         <Helmet>
-          {metaTitle ? <title>{metaTitle}</title> : null }
+          {metaTitle ? <title>{metaTitle}</title> : null}
           {metaTitle ? <meta name="title" content={metaTitle} /> : null}
           {metaDescription ? <meta name="description" content={metaDescription} /> : null}
           {metaTitle ? <meta property="og:title" content={metaTitle} /> : null}
