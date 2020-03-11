@@ -1,7 +1,6 @@
 Remember the function “corners” that we wrote on Tuesday?
 
-{% code title="sketch.js" %}
-```javascript
+```javascript filename="sketch.js"
 function setup() {
     createCanvas(windowWidth, windowHeight);
     fill("black");
@@ -15,7 +14,6 @@ function corners(x, y) {
     rect(x + 100, y + 100, 20, 20);
 }
 ```
-{% endcode %}
 
 This sketch uses the `function` keyword on line 7 to _define_ the corners function.
 

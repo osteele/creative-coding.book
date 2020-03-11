@@ -1,9 +1,12 @@
+---
+title: Setup, draw, and console.log
+---
+
 Remember that, in a p5.js sketch, `setup` is called once, and `draw` is called repeatedly.
 
 Let's test this. We will _instrument_ a sketch by adding `console.log` statements to its `setup` and `draw` functions. This allows us to use the JavaScript console, to see how when these functons are called. (Specifically, when the `console.log` lines are executed.)
 
-{% code title="sketch.js" %}
-```java
+```javascript filename=sketch.js
 function setup() {
     console.log('setup');
 }
@@ -12,7 +15,6 @@ function draw() {
     console.log('draw', frameCount);
 }
 ```
-{% endcode %}
 
 ![](../assets/images/image-4.png)
 
