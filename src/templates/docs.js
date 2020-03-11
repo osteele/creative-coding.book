@@ -91,7 +91,8 @@ export default class MDXRuntimeTest extends Component {
       });
 
     // meta tags
-    const metaTitle = mdx.frontmatter.metaTitle || mdx.fields.title;
+    const pageTitle = mdx.fields.title && mdx.fields.title.replace(/^\d+\s+/, '');
+    const metaTitle = mdx.frontmatter.metaTitle || pageTitle;
     const metaDescription = mdx.frontmatter.metaDescription;
     let canonicalUrl = config.gatsby.siteUrl;
     canonicalUrl = config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
@@ -111,7 +112,7 @@ export default class MDXRuntimeTest extends Component {
         </Helmet>
         <div className={'titleWrapper'}>
           <h1 className={'title'}>
-            {mdx.fields.title}
+            {pageTitle}
           </h1>
           <Edit className={'mobileView'}>
             {docsLocation &&
