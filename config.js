@@ -26,12 +26,15 @@ const config = {
   "sidebar": {
     "forcedNavOrder": [
       "/index",
+      "/overview",
       "/setup-draw-and-call-graphs",
+      "/values",
       "/variables",
       "/functions",
       "/arrays",
       "/objects",
       "/appendices",
+
     ],
     "collapsedNav": [
       "/codeblock" // add trailing slash if enabled above

@@ -1,0 +1,22 @@
+JavaScript is a programming language (a way of instructing the computer), often
+used to make web apps calculate, manipulate HTML and CSS, and respond to user
+actions. It can also be used on servers and, more recently, embedded devices.
+JavaScript was created by Brendan Eich in 1995 during his time at Netscape
+Communications. At the time, Netscape partnered with Sun Microsystems in order
+to out-maneuver Microsoft, who was attempting to push Netscape (who had the
+dominate web browser at the time) out of the market by pre-installing Internet
+Explorer on all PCs. Brendan spent ten days developing the scripting language
+that would eventually be called JavaScript, for both browsers and servers. It
+was called JavaScript purely for marketing purposes — the Java programming
+language was extremely popular at the time (it still is used today).
+
+<!-- Introduction to JavaScript for the Modern Web
+The way that we’ll teach you JavaScript is mainly within the context of the modern web and ReactJS in particular. This has some pros and cons:
+Pros: You’ll be be able to put it to use immediately in creating meaningful interactive applications.
+Cons: You’re not getting a traditional foundation in programming, so while the concepts are the same, the implementation will be quite different if you use another programming language, or a framework other than React.
+If you’d like a more foundational tutorial to study over the long break, I recommend this one from CodeAcademy:
+JavaScript Tutorial: Learn JavaScript For Free | Codecademy
+Learn JavaScript and Javascript arrays to build interactive websites and pages that adapt to every device. Add dynamic…
+www.codecademy.com
+So with this in mind, let’s dive in and take a look at some fundamental JavaScript concepts within a modern web framework
+-->
